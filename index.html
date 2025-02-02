@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Resume.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="home-page"
+        style=" min-height:100vh;background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(Image/laptop-with-white-screen-isolated-white-wall.jpg) ; background-size:cover; background-position: center;background-attachment: fixed;">
+        <header class="d-flex container-fluid  top-0 start-0 justify-content-between">
+            <div class="logo">
+                <img src="Logo/New Products and Services Business Website in Violet Dark Blue Neon Pink Gradient Tech Style/2.png"
+                    alt="Logo" class="img-fluid">
+            </div>
+            <nav class="nav bg-secondary position-fixed end-0 h-100" style="opacity: 0.9; display: none; z-index: 5;"
+                id="navigation-bar">
+                <ol class=" d-flex flex-column text-danger fs-3" style="margin: 120px 0px 120px 80px;font-weight: 600;">
+                    <li class="nav-item"><a class="nav-link" href="#home-page">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#progress-section">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home-page">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ol>
+                <button id="close" type="button"
+                    class="btn-close  fs-2 btn-close-white position-absolute top-0 end-0 p-5"
+                    onclick="closeMenu()"></button>
+            </nav>
+            <button id="menu"
+                class="btn fs-1 me-5 bg-warning opacity-75 text-secondary z-index-20  position-fixed end-0 "
+                style="top:30px; ;" onclick="btn()">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <div class="text-center name-1">
+            <h1 class="fw-lighter pb-2">MIDHIN M</h1>
+            <h2 class="bg-warning"><i>I'M WEB DEVELOPER & DESIGNER</i></h2>
+            <h6 class="pt-2"><i>Creates visually appealing, functional websites by blending coding <br>expertise with design principles to enhance the user experience.</i></h6>
+            <p>SCROLL DOWN</p>
+            <div class="ani"></div>            
+        </div>
+    </div>
+
+    <div class="container-fluid-xl" id="progress-section">
+        <div class="row d-flex justify-content-center">
+            <h3 class="fw-light mt-5 mb-5 text-center " style="letter-spacing: 5px;">ABOUT</h3>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-10 pb-5">
+                <img src="Image/img-profile.jpg"
+                    style="height: 95%;width:100%; background-position: center; background-size: cover;"
+                    class="img-fluid">
+            </div>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-11 pb-5">
+                <h4 class="fw-lighter text-uppercase text-xxl-end text-xl-end text-lg-end text-md-start text-start  text-decoration-underline "
+                    style="letter-spacing: 8px; line-height: 32px;">
+                    "Hello I'M <br>
+                    Midhin M <br>
+                    Web Designer"
+                </h4>
+                <h5 class="text-xxl-start text-xl-start text-lg-start text-md-start text-center mt-3 bg-warning p-1 text-uppercase fw-light"
+                    style="letter-spacing: 12px;margin-left:-50px;font-size: 15px;">Personal info</h5>
+                <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start mt-4  fw-2"
+                    style="letter-spacing: 3px;">Name: <br><span class="text-secondary">Midhin M</span></p>
+                <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start mt-4  fw-1"
+                    style="letter-spacing: 3px;">Age: <br><span class="text-secondary"> 33
+                        Years</span>
+                </p>
+                <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start mt-4  fw-1"
+                    style="letter-spacing: 3px;">Phone: <br> <span class=" text-secondary">
+                        +919995882145</span>
+                </p>
+                <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start mt-4  fw-1"
+                    style="letter-spacing: 3px;">Email: <br><span class=" text-secondary">
+                        midhinanchal.com</span>
+                </p>
+                <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start mt-4  fw-1"
+                    style="letter-spacing: 3px;">Adress: <br><span class=" text-secondary">
+                        Puthukkotta Veedu <br>
+                        <!-- Nediyara PO <br> -->
+                        <!-- Anchal <br>
+                    Kollam <br> -->
+                        Kerala</span>
+
+                </p>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 pb-5 col-sm-11 col-11">
+                <p class="text-start text-uppercase fw-light" style="letter-spacing: 2px;">Highly skilled IT
+                    professional with expertise in front-end
+                    development. Proficient in HTML, CSS, JavaScript, and MySQL.
+                </p>
+                <h5 class="text-xxl-start mt-5  text-xl-start text-lg-start text-md-center text-center  bg-warning p-1 text-uppercase fw-light"
+                    style="letter-spacing: 12px;font-size: 15px;">My Skills </h5>
+                <p class="text-start mt-4 fw-1" style="letter-spacing: 3px;">HTML5</p>
+                <div class="progress mb-3 " style="height: 8px; ">
+                    <div class="progress-bar " role="progressbar" style="width: 100%; background-color: red;"
+                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                </div>
+                <p class="text-start fw-1 mt-2" style="letter-spacing: 3px;">CSS3</p>
+                <div class="progress mb-3" style="height: 8px; background-color: rgb(233, 223, 223);">
+                    <div class="progress-bar" role="progressbar" style="width: 90%; background-color:red;"
+                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+                <p class="text-start fw-1 mt-2" style="letter-spacing: 3px;">BOOTSTRAP</p>
+                <div class="progress mb-3" style="height: 8px;background-color: rgb(233, 223, 223);">
+                    <div class="progress-bar" role="progressbar" style="width: 90%; background-color: red;"
+                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+                <p class="text-start fw-1 mt-2" style="letter-spacing: 3px;">JAVA SCRIPT</p>
+                <div class="progress mb-3" style="height: 8px; background-color: rgb(233, 223, 223);">
+                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color: red;"
+                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+                <p class="text-start fw-1 mt-2" style="letter-spacing: 3px;">MYSQL</p>
+                <div class="progress" style="height: 8px; background-color: rgb(233, 223, 223);">
+                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color:  red;"
+                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-flud "
+        style=" background:url(Image/pexels-apasaric-1422501.jpg);  min-height: 48vh;background-attachment:fixed; ">
+        <h3 class="text-center p-5 text-light  mb-5 fw-light text-uppercase " style="letter-spacing:5px">Hobbies &
+            Interests
+        </h3>
+        <div
+            class="row d-xxl-flex d-xl-flex d-lg-flex d-md-flex d-flex  flex-xxl-row flex-xl-row flex-lg-row flex-md-row flex-column">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-0"></div>
+            <div
+                class="pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center justify-content-center border-end border-secondary">
+                <i class="bi bi-camera" style="font-size: 40px; color: rgba(249, 137, 10, 0.966);"></i>
+            </div>
+            <div
+                class="pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center justify-content-center border-end border-secondary ">
+                <i class="bi bi-bicycle" style="font-size: 40px;  color:rgba(249, 137, 10, 0.966);"></i>
+            </div>
+            <div
+                class="pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center justify-content-center border-end border-secondary ">
+                <i class="bi bi-controller" style="font-size: 40px;  color:rgba(249, 137, 10, 0.966);"></i>
+            </div>
+            <div
+                class="pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center justify-content-center ">
+                <i class="bi bi-globe2" style="font-size: 40px;  color: rgba(249, 137, 10, 0.966);"></i>
+            </div>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 pb-5"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-image: url(Image/pexels-tatianasyrikova-3968175.jpg); ">
+        <div class="row">
+            <h3 class="p-5 text-center fw-light">SERVICES</h3>
+        </div>
+        <nav class="navbar navbar-expand">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li id="li-tab1" class="active nav-item" onclick="tab1(event)">
+                            <a class="nav-link active fs-3 bg-warning" href="#">01</a>
+                        </li>
+                        <li id="li-tab2" class=" nav-item" onclick="tab2(event)">
+                            <a class="nav-link fs-3" href="#">02</a>
+                        </li>
+                        <li id="li-tab3" class="nav-item" onclick="tab3(event)">
+                            <a class="nav-link fs-3" href="#">03</a>
+                        </li>
+                        <li id="li-tab4" class="nav-item" onclick="tab4(event)">
+                            <a class="nav-link fs-3" href="#">04</a>
+                        </li>
+                        <li id="li-tab5" class="nav-item" onclick="tab5(event)">
+                            <a class="nav-link fs-3" href="#">05</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="tab-content container-sm pb-5">
+            <hr class="my-3 mb-5">
+            <div class="row" id="home">
+                <h3
+                    class="col-md-3 text-xxl-end text-xl-end text-lg-end text-md-start text-start me-3 pb-3 text-decoration-underline">
+                    Responsive <br>Web Design</h3>
+                <p class="col-lg-6 bg-warning">Designing mobile-first, cross-browser compatible websites using HTML5,
+                    CSS3, and Bootstrap to ensure optimal performance across devices.</p>
+            </div>
+            <div class="row " id="tab-02" style="display: none;">
+                <h3
+                    class="col-md-3 text-xxl-end text-xl-end text-lg-end text-md-start text-start me-3 pb-3 text-decoration-underline">
+                    UI/UX <br>Development</h3>
+                <p class="col-lg-6 bg-warning">Creating intuitive and visually appealing user interfaces with a focus on
+                    user experience, accessibility, and modern design principles.</p>
+            </div>
+            <div class="row " id="tab-03" style="display: none;">
+                <h3
+                    class="col-md-3 text-xxl-end text-xl-end text-lg-end text-md-start text-start me-3 pb-3 text-decoration-underline">
+                    JavaScript <br> Development</h3>
+                <p class="col-lg-6 bg-warning">Building dynamic, interactive web applications using JavaScript, with
+                    proficiency in DOM manipulation, APIs, and frameworks.</p>
+            </div>
+            <div class="row " id="tab-04" style="display: none;">
+                <h3
+                    class="col-md-3 text-xxl-end text-xl-end text-lg-end text-md-start text-start me-3 pb-1 text-decoration-underline">
+                    Website<br>Performance <br>Optimization</h3>
+                <p class="col-lg-6 bg-warning">Enhancing website speed, SEO, and performance through code optimization,
+                    lazy loading, and efficient asset management.</p>
+            </div>
+            <div class="row " id="tab-05" style="display: none;">
+                <h3
+                    class="col-md-3 text-xxl-end text-xl-end text-lg-end text-md-start text-start me-3 pb-3 text-decoration-underline">
+                    Cross-Platform <br>Compatibility</h3>
+                <p class="col-lg-6 bg-warning">Ensuring seamless functionality across different browsers and platforms
+                    by implementing responsive design techniques and thorough testing.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid d-flex flex-column justify-content-center  "
+        style=" background:url(Image/pexels-obi-onyeador-1787470-13566767.jpg);  min-height: 35vh;background-attachment:fixed; ">
+
+        <div
+            class="row row d-xxl-flex d-xl-flex d-lg-flex d-md-flex d-flex  flex-xxl-row flex-xl-row flex-lg-row flex-md-row flex-column ">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 pt-5"></div>
+            <div
+                class=" fs-5 pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12  border-end border-secondary text-xxl-center text-xl-center text-lg-center text-md-center text-center ">
+                <p style="color: rgba(249, 137, 10, 0.966);">1500 <br><span class="text-light">Hours Of Work</span></p>
+            </div>
+            <div
+                class="fs-5 pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12  border-end border-secondary text-xxl-center text-xl-center text-lg-center text-md-center text-center ">
+                <p style="color: rgba(249, 137, 10, 0.966);">45 <br><span class="text-light">Cups of Coffee</span></p>
+            </div>
+            <div
+                class="fs-5 pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12  border-end border-secondary text-xxl-center text-xl-center text-lg-center text-md-center text-center ">
+                <p style="color: rgba(249, 137, 10, 0.966);">178 <br><span class="text-light">Project Done</span></p>
+            </div>
+            <div
+                class="fs-5 pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12  text-xxl-center text-xl-center text-lg-center text-md-center text-center border-secondary text-center ">
+                <p style="color: rgba(249, 137, 10, 0.966);">32 <br><span class="text-light">Clients Worked</span></p>
+            </div>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 pb-5"></div>
+        </div>
+    </div>
+    <div class="container-flud" id="resume">
+        <div class="row ">
+            <h3 class="text-center fw-light pt-5 ">RESUME</h3>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12 border">
+                <h5 class="text-start mt-5 bg-warning mb-3">PROFESSIONAL SUMMARY</h5>
+                <p class="ms-3 text-muted"><i>Highly skilled IT professional with expertise in front-end development,
+                        project engineering, and eOffice support. Proficient in HTML, CSS, JavaScript, and MySQL, with
+                        hands-on experience in maintaining and managing 110 kV substations. Adept at developing
+                        user-friendly web interfaces, supporting IT infrastructure, and ensuring seamless project
+                        execution.</i>
+                </p>
+                <h5 class="text-start mt-2 bg-warning mb-3">KEY SKILLS</h5>
+                <ul class="d-flex flex-column"></ul>
+                <li class="ms-3 "><a class="text-decoration-none text-muted"><i>Front-End Development: HTML, CSS,
+                            JavaScript.</i></a></li>
+                <li class="ms-3"><a href="" class="text-decoration-none text-muted"><i>Integrated MySQL databases for
+                            secure data storage and efficient retrieval.</i></a></li>
+                <li class="ms-3"><a href="" class="text-decoration-none text-muted"><i>Supported system testing,
+                            deployment, and ongoing maintenance.</i></a></li>
+                </ul>
+                <h5 class="text-start bg-warning mt-3 mb-3">PROJECTS</h5>
+                <h6 class="text-center mt-1  text-decoration-underline"><i>Web-Based eOffice System</i></h6>
+                <ul class="d-flex flex-column">
+                    <li><a class="text-decoration-none text-muted"><i>Developed front-end interfaces using HTML,
+                                CSS, and JavaScript to enhance user experience.</i></a></li>
+                    <li><a href="" class="text-decoration-none text-muted"><i>IT Support and Maintenance: eOffice
+                                systems, troubleshooting, and user training.</i></a></li>
+                    <li><a href="" class="text-decoration-none text-muted"><i>Project Management: Planning,
+                                coordination, and execution of IT-related projects.</i></a></li>
+                </ul>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12 border">
+                <div>
+                    <h5 class="text-xxl-end text-xl-end text-lg-end text-md-start text-start mt-5 bg-warning mb-3 ">
+                        EDUCATION</h5>
+                    <h6
+                        class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-muted text-uppercase ms-3">
+                        <i>
+                            Electronics and Communication Engineering</i></h6>
+                    <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-muted ms-3"><i>ANNA
+                            UNIVERSITY</i></p>
+                    <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-muted pb-2 ms-3">
+                        <i>2009-2013</i>
+                    </p>
+                    <hr>
+                    <h6
+                        class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-uppercase text-muted ms-3">
+                        <i>Higher Secondary School</i>
+                    </h6>
+                    <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-muted ms-3">
+                        <i>GOVENMENT
+                            HIGHER SECONDARY SCHOOL ANCHAL EAST</i></p>
+                    <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-muted pb-2 ms-3">
+                        <i>2007 -
+                            2009</i></p>
+                </div>
+                <div>
+                    <h5 class="text-xxl-end text-xl-end text-lg-end text-md-start text-start bg-warning mb-3 mt-4">
+                        Experience</h5>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h5
+                                class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-decoration-underline text-muted ms-3">
+                                <i>Project Engineer</i>
+                            </h5>
+                            <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-muted ms-3">
+                                <i> Velocis Systems Pvt. Ltd.</i>
+                            </p>
+                            <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-muted ms-3">
+                                <i>8/2023
+                                    - 11/2024</i></p>
+                            <p class="text-xxl-end text-xl-end text-lg-end text-md-start text-start text-muted ms-3">
+                                <i>Worked
+                                    on Front-End web development and implemented
+                                    scalable solutions for clients.</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-flud"
+        style=" background:url(Image/pexels-apasaric-1422501.jpg);  min-height: 48vh;background-attachment:fixed; ">
+        <h3 class="text-center p-5 text-light  mb-5 fw-light text-uppercase " style="letter-spacing:5px">Social links
+        </h3>
+        <div
+            class="row d-xxl-flex d-xl-flex d-lg-flex d-md-flex d-flex  flex-xxl-row flex-xl-row flex-lg-row flex-md-row flex-column ">
+            <div class=" col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-0"></div>
+            <div
+                class="pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center justify-content-center border-end border-secondary">
+                <i class="bi bi-linkedin" style="font-size: 40px; color: rgba(249, 137, 10, 0.966);"></i></div>
+            <div
+                class="pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center justify-content-center border-end border-secondary ">
+                <i class="bi bi-facebook" style="font-size: 40px;  color:  rgba(249, 137, 10, 0.966);"></i></div>
+            <div
+                class="pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center justify-content-center border-end border-secondary ">
+                <i class="bi bi-instagram" style="font-size: 40px;  color:  rgba(249, 137, 10, 0.966);"></i></div>
+            <div
+                class="pb-5 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center justify-content-center">
+                <i class="bi bi-whatsapp" style="font-size: 40px;  color: rgba(249, 137, 10, 0.966);"></i></div>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-12 pb-5"></div>
+        </div>
+    </div>
+    <div class="container-fluid " id="contact"
+        style="min-height: 90vh;background-image: url(Image/pexels-eberhardgross-3389613.jpg);background-attachment:fixed;background-position: center;background-size: cover;">
+        <div class="row">
+            <h3 class="fw-light mt-5 text-center" style="letter-spacing: 5px;">CONTACT</h3>
+            <div
+                class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12 mt-5 d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-start justify-content-start ">
+                <ul class="d-flex flex-column ">
+                    <li class="d-flex fs-5 mb-4">
+                        <i class="bi bi-geo-alt"></i><a class="ms-3  text-decoration-none text-dark text-uppercase "
+                            style="letter-spacing: 5px; font-size: 14px;">ADDRESS: <br>
+                            Puthukkotta
+                            Veedu, Kollam, Kerala</a>
+                    </li>
+                    <li class="d-flex fs-5 mb-4"><i class="bi bi-telephone"></i><a
+                            class="text-decoration-none ms-3 text-dark " href=""
+                            style="letter-spacing: 5px;font-size: 14px;">+919995882145</a>
+                    </li>
+                    <li class="d-flex fs-5"><i class="bi bi-envelope"></i><a class="text-decoration-none ms-3 text-dark "
+                            href="" style="letter-spacing: 5px;font-size: 14px;">midhinanchal@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12 mt-5 ms-md-0 ms-4 ">
+                <form action="">
+                    <div class="mb-4 ">
+                        <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="Enter Name"
+                            style="font-style: italic;width: 75%;">
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" class="form-control " id="exampleFormControlInput1"
+                            placeholder="Enter email" style="font-style: italic;width: 75%;">
+                    </div>
+                    <div class="mb-4 ">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                            placeholder="Enter Your Message" style="font-style: italic;width: 75%;"></textarea>
+                    </div>
+                    <div class="btn btn-warning mb-5 ">SUBMIT</div>
+                </form>
+
+            </div>
+        </div>
+        <footer class="text-lg-start mt-5 pt-4 position-relative bottom-0 ">
+            <div class="container py-3">
+                <hr class="my-2">
+                <p class="mb-0">&copy; 2025 Midhin M. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="Resume.js"></script>
+</body>
+
+</html>
